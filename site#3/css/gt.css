@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=PT+Sans:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://cf.shopee.com.br/file/f7b8fa0fdac12d71247fd87177e6d1ca);
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #2b2929;
+    height: 6rem;
+    color: #fff;
+    box-shadow: 0 10px 5px #1f1c1c;
+}
+
+
+footer{
+    height: 10rem;
+    background-color: #2b2828;
+    background: linear-gradient(180deg, #2c2929 40%, #3a3a38 100%) ;  
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+.titulo{
+  color: #6c56b4;
+  background-color: #1f1c1c;
+  border: solid transparent;
+  border-radius: 1000px;
+  text-transform: uppercase;
+  font-size: 4em;
+ 
+}
+
+
+
+.p1{
+  color: #4c31a5;
+  background-color: #1f1c1c;
+  border: solid transparent;
+  border-radius: 20px;
+  font-size: 1.5em;
+  margin: 8em;
+}
+.video{display: flex;
+  width: 100%;
+  height: 110px;
+ border: solid transparent;
+ border-radius: 30px;
+}
